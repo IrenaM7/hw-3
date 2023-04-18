@@ -1,0 +1,209 @@
+/* цвет всех h #2e2f42 */
+/* section nav logo Studio
+ссылки Studio Portfolio 
+Contacts  #2e2f42  */
+/* section nav ссылки mail tel
+#434455 */
+/* основной текст #434455  */
+/* section hero h1 button text #fffff
+button background #4d5ae5  */
+/* sektion Our Team background
+#f4f4fd */
+/* footer logo "Web #4d5ae5
+Studio #f4f4fd background #2e2f42 */
+:root {
+  --primary-text-color: rgba(67, 68, 85, 1);
+  --title-text-color: rgba(46, 47, 66, 1);
+  --accent-color: rgba(77, 90, 229, 1);
+  --primary-white-color: rgba(255, 255, 255, 1);
+  --accent-ocean-color: rgba(64, 75, 191, 1);
+  --accent-cloud-color: rgba(244, 244, 253, 1);
+
+  --color-iris: rgba(77, 90, 229, 1);
+  --color-ocean: rgba(64, 75, 191, 1);
+  --color-navy-blue: rgba(46, 47, 66, 1);
+  --color-green: rgba(49, 208, 170, 1);
+  --color-slate: rgba(67, 68, 85, 1);
+  --color-light-slate: rgba(142, 143, 153, 1);
+  --color-cornflower: rgba(231, 233, 252, 1);
+  --color-cloud: rgba(244, 244, 253, 1);
+  --color-navy-blue-modal: rgba(46, 47, 66, 0.4);
+  --color-grey: rgba(46, 47, 66, 0.7);
+  --color-white: rgba(255, 255, 255, 1);
+  --color-dairy: rgba(252, 252, 252, 1);
+}
+/* страница studio */
+/* sektion header */
+body {
+  color: var(--primary-text-color);
+  background-color: var(--primary-white-color);
+  font-family: "Roboto", sans-serif;
+}
+
+.button.primary:hover,
+.button.primary:focus {
+  background-color: var(--accent-ocean-color);
+}
+.button.primary {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+/*  site-nav */
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  line-height: 1.17;
+  text-transform: uppercase;
+  color: var(--accent-color);
+  font-weight: 800;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+}
+
+.logo .studio {
+  color: var(--title-text-color);
+}
+.logo .studio:hover,
+.logo .studio:focus {
+  color: var(--title-text-color);
+}
+.site-address {
+  font-style: normal;
+}
+.site-address .link {
+  color: var(--primary-text-color);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.site-nav .link {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-address .link:hover {
+  color: var(--accent-ocean-color);
+}
+
+.site-nav .link:focus,
+.site-address .link:focus {
+  color: var(--accent-ocean-color);
+}
+
+/* sektion hero */
+.hero {
+  background-color: var(--title-text-color);
+  width: 1440px;
+}
+
+.hero-title {
+  color: var(--primary-white-color);
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+/* sektion feature */
+.section .title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--title-text-color);
+}
+
+.section-subject {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.section-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* section What are we doing(что мы делаем) */
+
+/* sektion Our Team(наша команда) */
+.team {
+  background-color: var(--accent-cloud-color);
+}
+.section-foto {
+  background-color: var(--primary-white-color);
+}
+
+.team-subject {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.team-text {
+  color: var(--primary-text-color);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* sektion footer */
+footer {
+  background-color: var(--title-text-color);
+}
+.footer-logo,
+.footer-text {
+  color: var(--accent-cloud-color);
+}
+
+/* страница portfolio */
+.port-button {
+  color: var(--accent-color);
+  background-color: var(--accent-cloud-color);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.port-button:hover,
+.port-button:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-ocean-color);
+}
+.link .project {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: var(--title-text-color);
+  vertical-align: top;
+}
+
+.link .desk {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}

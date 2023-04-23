@@ -106,6 +106,7 @@ body {
 }
 .site-nav,
 .addres-list {
+  gap: 40px;
   padding-left: 0;
   margin-top: 0;
   margin-bottom: 0;
@@ -181,6 +182,8 @@ body {
 /* sektion feature */
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 .section {
   padding-top: 120px;

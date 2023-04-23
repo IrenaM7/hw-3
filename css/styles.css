@@ -91,18 +91,17 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.page-header {
-  display: flex;
-  align-items: center;
+.page {
   border-bottom: 1px solid #e7e9fc;
 }
 .baskiet {
   display: flex;
   align-items: center;
 }
-.site-nav,
-.addres-list {
-  display: flex;
+.container {
+  margin: 0 auto;
+  width: 1158px;
+  padding: 0 15px;
 }
 .site-nav,
 .addres-list {

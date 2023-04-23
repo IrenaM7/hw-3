@@ -341,6 +341,7 @@ footer {
 }
 .port-button:hover,
 .port-button:focus {
+  border: 1px solid transparent;
   color: var(--primary-white-color);
   background-color: var(--accent-ocean-color);
 }

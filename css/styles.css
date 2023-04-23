@@ -232,6 +232,7 @@ img {
 
 /* sektion Our Team(наша команда) */
 .list.team {
+  gap: 24px;
   margin-left: 156px;
   margin-right: 156px;
 }
@@ -266,7 +267,7 @@ img {
   padding-bottom: 100px;
   margin-right: 0;
 }
-.footers {
+.logo.link.footers {
   margin-bottom: 16px;
   display: inline-block;
 }

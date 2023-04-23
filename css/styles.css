@@ -289,6 +289,10 @@ footer {
 }
 
 /* страница portfolio */
+.portsection {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
 .list.buttons {
   justify-content: center;
   margin-top: 96px;

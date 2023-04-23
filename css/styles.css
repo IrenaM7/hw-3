@@ -254,7 +254,9 @@ img {
 .section-foto {
   background-color: var(--primary-white-color);
 }
-
+.foteam {
+  border-radius: 0px 0px 4px 4px;
+}
 /* sektion footer */
 .footers {
   padding-top: 100px;

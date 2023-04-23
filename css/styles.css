@@ -91,11 +91,12 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.baskiet {
+.page-header {
   display: flex;
   align-items: center;
+  border-bottom: 1px solid #e7e9fc;
 }
-.container {
+.baskiet {
   display: flex;
   align-items: center;
 }
@@ -175,6 +176,9 @@ body {
 }
 
 /* sektion feature */
+img {
+  display: block;
+}
 .section:not(:last-child) {
   margin-bottom: 120px;
   margin-left: 156px;

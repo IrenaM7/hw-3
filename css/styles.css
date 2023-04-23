@@ -310,15 +310,15 @@ footer {
   margin-bottom: 72px;
 }
 .list.portfolio {
+  row-gap: 48px;
+  column-gap: 24px;
   flex-wrap: wrap;
-  width: 1128px;
-  margin-left: 156px;
-  margin-right: 156px;
 }
 .s-li.port:nth-last-child(3n) {
   margin-left: 0;
 }
 .s-li.port {
+  row-gap: 48px;
   margin-bottom: 48px;
 }
 .s-li.port:nth-last-child(-n + 3) {

@@ -197,6 +197,9 @@ img {
 .section-foto:not(:first-child) {
   margin-left: 24px;
 }
+.list.s-li {
+  gap: 24px;
+}
 
 .section .title {
   margin-top: 0;

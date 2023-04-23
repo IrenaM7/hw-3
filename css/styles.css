@@ -371,3 +371,9 @@ footer {
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
+.link .port {
+  margin-bottom: 8px;
+  border-top: none;
+  border: 1px solid #e7e9fc;
+  padding: 32px 16px;
+}

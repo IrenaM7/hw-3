@@ -60,7 +60,7 @@ body {
   margin-right: 0;
   padding-bottom: 25.5px;
   margin-right: 76px;
-  margin-left: 156px;
+
   font-family: "Raleway", sans-serif;
   line-height: 1.17;
   text-transform: uppercase;
@@ -99,6 +99,7 @@ body {
   align-items: center;
 }
 .container {
+  display: flex;
   margin: 0 auto;
   width: 1158px;
   padding: 0 15px;
@@ -118,17 +119,14 @@ body {
   outline: 1px solid red;
 }
 
-.site-nav .item:not(:first-child),
-.addres-list .item:not(:first-child) {
-  margin-left: 40px;
+.site-nav .item:not(:last-child),
+.addres-list .item:not(:last-child) {
+  margin-right: 40px;
 }
-.site-nav .item:last-child {
-  margin-right: 332px;
+.site-nav .item,
+.addres-list .item {
+  margin-right: 40px;
 }
-.site-address .item:last-child {
-  margin-right: 156px;
-}
-
 .site-nav .link:hover,
 .site-address .link:hover {
   color: var(--accent-ocean-color);

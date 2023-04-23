@@ -18,6 +18,7 @@ Studio #f4f4fd background #2e2f42 */
   --primary-white-color: rgba(255, 255, 255, 1);
   --accent-ocean-color: rgba(64, 75, 191, 1);
   --accent-cloud-color: rgba(244, 244, 253, 1);
+  --border-color: rgba(231, 233, 252, 1);
 
   --color-iris: rgba(77, 90, 229, 1);
   --color-ocean: rgba(64, 75, 191, 1);
@@ -325,6 +326,8 @@ footer {
 }
 
 .port-button {
+  border-radius: 4px;
+  border: 1px solid var(--border-color);
   padding: 12px 24px;
 
   color: var(--accent-color);

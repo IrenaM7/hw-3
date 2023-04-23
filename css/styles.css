@@ -303,6 +303,7 @@ footer {
   padding-bottom: 120px;
 }
 .list.buttons {
+  gap: 24px;
   justify-content: center;
   margin-top: 96px;
   margin-bottom: 72px;
@@ -324,6 +325,8 @@ footer {
 }
 
 .port-button {
+  padding: 12px 24px;
+
   color: var(--accent-color);
   background-color: var(--accent-cloud-color);
   font-family: "Roboto", sans-serif;

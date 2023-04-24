@@ -97,7 +97,6 @@ body {
   align-items: center;
 }
 .container {
-  display: flex;
   margin: 0 auto;
   width: 1158px;
   padding: 0 15px;
@@ -174,6 +173,7 @@ img {
 
 .list.s-li {
   gap: 24px;
+  padding-right: 0px;
 }
 
 .section .title {
@@ -206,7 +206,9 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   width: 264px;
-  text-align: center;
+}
+.section-foto {
+  width: calc((100% - 72px) / 4);
 }
 
 /* section What are we doing(что мы делаем) */

@@ -190,14 +190,7 @@ img {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-.section:not(:last-child) {
-  margin-bottom: 120px;
-  margin-left: 156px;
-}
-.s-li:not(:first-child),
-.section-foto:not(:first-child) {
-  margin-left: 24px;
-}
+
 .list.s-li {
   gap: 24px;
 }

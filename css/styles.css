@@ -223,13 +223,14 @@ img {
 .section-foto {
   background-color: var(--primary-white-color);
 }
-.team .section-text {
+.section-text {
   margin-bottom: 32px;
+  text-align: center;
 }
 .team .title {
   padding-top: 120px;
 }
-.team .section-subject {
+.section-subject {
   margin-top: 32px;
 }
 

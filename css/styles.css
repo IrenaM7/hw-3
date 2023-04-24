@@ -135,6 +135,7 @@ body {
   border: none;
   height: 56px;
   min-width: 169px;
+  display: block;
 
   color: var(--primary-white-color);
   background-color: var(--accent-color);

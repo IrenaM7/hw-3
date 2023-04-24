@@ -236,9 +236,6 @@ img {
 }
 .section-foto {
   background-color: var(--primary-white-color);
-
-  width: calc((100% - 72px) / 4);
-  border-radius: 0px 0px 4px 4px;
 }
 .team .section-text {
   margin-bottom: 32px;
@@ -256,6 +253,7 @@ img {
 .section-foto {
 }
 .foteam {
+  width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
 .teams {

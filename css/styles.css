@@ -53,7 +53,7 @@ body {
 }
 
 .logo {
-  display: flex;
+  display: inline-block;
   padding-top: 25.5px;
   margin-right: 0;
   padding-bottom: 25.5px;
@@ -235,8 +235,9 @@ img {
   gap: 24px;
 }
 .section-foto {
-  width: calc((100% - 72px) / 4);
+  background-color: var(--primary-white-color);
 
+  width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
 .team .section-text {
@@ -253,7 +254,6 @@ img {
   background-color: var(--accent-cloud-color);
 }
 .section-foto {
-  background-color: var(--primary-white-color);
 }
 .foteam {
   border-radius: 0px 0px 4px 4px;

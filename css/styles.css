@@ -226,6 +226,9 @@ img {
 }
 
 /* section What are we doing(что мы делаем) */
+.doing {
+  width: calc((100% - 48px) / 3);
+}
 
 /* sektion Our Team(наша команда) */
 .list.team {

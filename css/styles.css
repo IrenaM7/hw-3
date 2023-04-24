@@ -101,6 +101,12 @@ body {
   width: 1158px;
   padding: 0 15px;
 }
+.nav-container {
+  display: flex;
+  margin: o auto;
+  width: 1158px;
+  padding: 0px 15px;
+}
 .site-nav,
 .addres-list {
   gap: 40px;

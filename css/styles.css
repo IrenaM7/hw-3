@@ -286,11 +286,13 @@ footer {
   justify-content: center;
   margin-top: 96px;
   margin-bottom: 72px;
+  padding-left: 0;
 }
 .list.portfolio {
   row-gap: 48px;
   column-gap: 24px;
   flex-wrap: wrap;
+  padding-left: 0;
 }
 
 .s-li.port {

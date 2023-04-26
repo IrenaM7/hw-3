@@ -137,6 +137,7 @@ body {
   height: 56px;
   min-width: 169px;
   display: block;
+  margin: auto;
 
   color: var(--primary-white-color);
   background-color: var(--accent-color);
@@ -156,6 +157,7 @@ body {
 }
 
 .hero-title {
+  margin: auto;
   max-width: 496px;
   margin-top: 0;
   margin-bottom: 48px;

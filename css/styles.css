@@ -345,7 +345,8 @@ footer {
   color: var(--primary-text-color);
 }
 .link .portes {
-  border-top: none;
   border: 1px solid #e7e9fc;
+  border-top: none;
+
   padding: 32px 16px;
 }
